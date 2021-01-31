@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/appback"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="156dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="38dp"
+        android:text="Anger"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="156dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="39dp"
+        android:text="Anxiety"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="242dp" />
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="288dp"
+        android:layout_height="95dp"
+        android:focusable="false"
+        android:inputType="text"
+        android:background="#2A5C99"
+        android:text="How are you feeling today?"
+        tools:layout_editor_absoluteX="60dp"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteY="96dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="156dp"
+        android:layout_height="63dp"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="47dp"
+        android:text="Sad"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="400dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="93dp"
+        android:text="Want to share something.!"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+</RelativeLayout>
